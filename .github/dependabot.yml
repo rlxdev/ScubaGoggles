@@ -10,6 +10,7 @@ updates:
         group-by: dependency-name
         patterns:
           - "*"
+    open-pull-requests-limit: 30
 
   - package-ecosystem: "pip"
     directories:
@@ -23,3 +24,4 @@ updates:
         group-by: dependency-name
         patterns:
           - "*"
+    open-pull-requests-limit: 30
